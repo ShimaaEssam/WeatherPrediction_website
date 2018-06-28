@@ -1,0 +1,9 @@
+﻿body {
+}
+    a {
+    color: #ebedef;
+    text-decoration: double;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0962cc69c8b94e118fde6a985a7a4e87" Name="Diagram1">
+        <EntityTypeShape EntityType="WeatherPredictionModel.Cities" Width="1.5" PointX="3.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WeatherPredictionModel.Clothes" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WeatherPredictionModel.ClothesImages" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WeatherPredictionModel.Crops" Width="1.5" PointX="3.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WeatherPredictionModel.Places" Width="1.5" PointX="3.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WeatherPredictionModel.PlacesImages" Width="1.5" PointX="6" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="WeatherPredictionModel.WeatherData2" Width="1.5" PointX="6" PointY="2.625" IsExpanded="true" />
+        <AssociationConnector Association="WeatherPredictionModel.FK_WeatherData2_Cities" ManuallyRouted="false" />
+        <AssociationConnector Association="WeatherPredictionModel.FK_ClothesImages_Clothes" ManuallyRouted="false" />
+        <AssociationConnector Association="WeatherPredictionModel.FK_WeatherData2_Clothes" ManuallyRouted="false" />
+        <AssociationConnector Association="WeatherPredictionModel.FK_WeatherData2_Crops" ManuallyRouted="false" />
+        <AssociationConnector Association="WeatherPredictionModel.FK_PlacesImages_Places" ManuallyRouted="false" />
+        <AssociationConnector Association="WeatherPredictionModel.FK_WeatherData2_Places" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="WeatherPredictionModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'WeatherPrediction.dbo.Alexandria$' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Alexandria$">
+          <Property Name="Location" Type="nvarchar" MaxLength="255" />
+          <Property Name="Year" Type="float" />
+          <Property Name="Month" Type="nvarchar" MaxLength="255" />
+          <Property Name="Day" Type="float" />
+          <Property Name="Temp_high" Type="float" />
+          <Property Name="Temp_avg" Type="float" />
+          <Property Name="Temp_low" Type="float" />
+          <Property Name="Dew#Point_high" Type="float" />
+          <Property Name="Dew#Point_avg" Type="float" />
+          <Property Name="Dew#Point_low" Type="float" />
+          <Property Name="Humidity_high" Type="float" />
+          <Property Name="Humidity_avg" Type="float" />
+          <Property Name="Humidity_low" Type="float" />
+          <Property Name="Sea_Level_Press_high" Type="float" />
+          <Property Name="Sea_Level_Press_avg" Type="float" />
+          <Property Name="Sea_Level_Press_low" Type="float" />
+          <Property Name="Visibility_high" Type="float" />
+          <Property Name="Visibility_avg" Type="float" />
+          <Property Name="Visibility_low" Type="float" />
+          <Property Name="Wind_high" Type="float" />
+          <Property Name="Wind_avg" Type="float" />
+          <Property Name="Wind_low" Type="float" />
+          <Property Name="sum" Type="float" />
+          <Property Name="Events" Type="nvarchar" MaxLength="255" />
+          <Property Name="CityID" Type="float" />
+        </EntityType>-->
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'WeatherPrediction.dbo.Assuit$' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Assuit$">
+          <Property Name="Location" Type="nvarchar" MaxLength="255" />
+          <Property Name="Year" Type="float" />
+          <Property Name="Month" Type="nvarchar" MaxLength="255" />
+          <Property Name="Day" Type="float" />
+          <Property Name="Temp_high" Type="float" />
+          <Property Name="Temp_avg" Type="float" />
+          <Property Name="Temp_low" Type="float" />
+          <Property Name="Dew#Point_high" Type="float" />
+          <Property Name="Dew#Point_avg" Type="float" />
+          <Property Name="Dew#Point_low" Type="float" />
+          <Property Name="Humidity_high" Type="float" />
+          <Property Name="Humidity_avg" Type="float" />
+          <Property Name="Humidity_low" Type="float" />
+          <Property Name="Sea_Level_Press_high" Type="float" />
+          <Property Name="Sea_Level_Press_avg" Type="float" />
+          <Property Name="Sea_Level_Press_low" Type="float" />
+          <Property Name="Visibility_high" Type="float" />
+          <Property Name="Visibility_avg" Type="float" />
+          <Property Name="Visibility_low" Type="float" />
+          <Property Name="Wind_high" Type="float" />
+          <Property Name="Wind_avg" Type="float" />
+          <Property Name="Wind_low" Type="float" />
+          <Property Name="sum" Type="float" />
+          <Property Name="Events" Type="nvarchar" MaxLength="255" />
+          <Property Name="CityID" Type="float" />
+        </EntityType>-->
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'WeatherPrediction.dbo.Asswan$' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Asswan$">
+          <Property Name="Location" Type="nvarchar" MaxLength="255" />
+          <Property Name="Year" Type="float" />
+          <Property Name="Month" Type="nvarchar" MaxLength="255" />
+          <Property Name="Day" Type="float" />
+          <Property Name="Temp_high" Type="float" />
+          <Property Name="Temp_avg" Type="float" />
+          <Property Name="Temp_low" Type="float" />
+          <Property Name="Dew#Point_high" Type="float" />
+          <Property Name="Dew#Point_avg" Type="float" />
+          <Property Name="Dew#Point_low" Type="float" />
+          <Property Name="Humidity_high" Type="float" />
+          <Property Name="Humidity_avg" Type="float" />
+          <Property Name="Humidity_low" Type="float" />
+          <Property Name="Sea_Level_Press_high" Type="float" />
+          <Property Name="Sea_Level_Press_avg" Type="float" />
+          <Property Name="Sea_Level_Press_low" Type="float" />
+          <Property Name="Visibility_high" Type="float" />
+          <Property Name="Visibility_avg" Type="float" />
+          <Property Name="Visibility_low" Type="float" />
+          <Property Name="Wind_high" Type="float" />
+          <Property Name="Wind_avg" Type="float" />
+          <Property Name="Wind_low" Type="float" />
+          <Property Name="sum" Type="float" />
+          <Property Name="Events" Type="nvarchar" MaxLength="255" />
+          <Property Name="CityID" Type="float" />
+        </EntityType>-->
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'WeatherPrediction.dbo.Cairo$' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Cairo$">
+          <Property Name="Location" Type="nvarchar" MaxLength="255" />
+          <Property Name="Year" Type="float" />
+          <Property Name="Month" Type="nvarchar" MaxLength="255" />
+          <Property Name="Day" Type="float" />
+          <Property Name="Temp_high" Type="float" />
+          <Property Name="Temp_avg" Type="float" />
+          <Property Name="Temp_low" Type="float" />
+          <Property Name="Dew#Point_high" Type="float" />
+          <Property Name="Dew#Point_avg" Type="float" />
+          <Property Name="Dew#Point_low" Type="float" />
+          <Property Name="Humidity_high" Type="float" />
+          <Property Name="Humidity_avg" Type="float" />
+          <Property Name="Humidity_low" Type="float" />
+          <Property Name="Sea_Level_Press_high" Type="float" />
+          <Property Name="Sea_Level_Press_avg" Type="float" />
+          <Property Name="Sea_Level_Press_low" Type="float" />
+          <Property Name="Visibility_high" Type="float" />
+          <Property Name="Visibility_avg" Type="float" />
+          <Property Name="Visibility_low" Type="float" />
+          <Property Name="Wind_high" Type="float" />
+          <Property Name="Wind_avg" Type="float" />
+          <Property Name="Wind_low" Type="float" />
+          <Property Name="sum" Type="float" />
+          <Property Name="Events" Type="nvarchar" MaxLength="255" />
+          <Property Name="CityID" Type="float" />
+        </EntityType>-->
+        <EntityType Name="Cities">
+          <Key>
+            <PropertyRef Name="City_ID" />
+          </Key>
+          <Property Name="City_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="City_Name" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Clothes">
+          <Key>
+            <PropertyRef Name="SeasonID" />
+          </Key>
+          <Property Name="SeasonID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SeasonName" Type="nvarchar(max)" />
+          <Property Name="MinTemp" Type="int" />
+          <Property Name="MaxTemp" Type="int" />
+        </EntityType>
+        <EntityType Name="ClothesImages">
+          <Key>
+            <PropertyRef Name="ClothesID" />
+          </Key>
+          <Property Name="ClothesID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ImageURL" Type="nvarchar(max)" />
+          <Property Name="SeasonID" Type="int" />
+        </EntityType>
+        <EntityType Name="Crops">
+          <Key>
+            <PropertyRef Name="Crop_ID" />
+          </Key>
+          <Property Name="Crop_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Crop_Name_Eng" Type="nvarchar(max)" />
+          <Property Name="Crop_Name_Arabic" Type="nvarchar(max)" />
+          <Property Name="MinTemp" Type="int" />
+          <Property Name="MaxTemp" Type="int" />
+          <Property Name="ImageURL" Type="nvarchar(max)" />
+          <Property Name="Description" Type="nvarchar(max)" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'WeatherPrediction.dbo.Hurghada$' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Hurghada$">
+          <Property Name="Location" Type="nvarchar" MaxLength="255" />
+          <Property Name="Year" Type="float" />
+          <Property Name="Month" Type="nvarchar" MaxLength="255" />
+          <Property Name="Day" Type="float" />
+          <Property Name="Temp_high" Type="float" />
+          <Property Name="Temp_avg" Type="float" />
+          <Property Name="Temp_low" Type="float" />
+          <Property Name="Dew#Point_high" Type="float" />
+          <Property Name="Dew#Point_avg" Type="float" />
+          <Property Name="Dew#Point_low" Type="float" />
+          <Property Name="Humidity_high" Type="float" />
+          <Property Name="Humidity_avg" Type="float" />
+          <Property Name="Humidity_low" Type="float" />
+          <Property Name="Sea_Level_Press_high" Type="float" />
+          <Property Name="Sea_Level_Press_avg" Type="float" />
+          <Property Name="Sea_Level_Press_low" Type="float" />
+          <Property Name="Visibility_high" Type="float" />
+          <Property Name="Visibility_avg" Type="float" />
+          <Property Name="Visibility_low" Type="float" />
+          <Property Name="Wind_high" Type="float" />
+          <Property Name="Wind_avg" Type="float" />
+          <Property Name="Wind_low" Type="float" />
+          <Property Name="sum" Type="float" />
+          <Property Name="Events" Type="nvarchar" MaxLength="255" />
+          <Property Name="CityID" Type="float" />
+        </EntityType>-->
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'WeatherPrediction.dbo.Ismailia$' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Ismailia$">
+          <Property Name="Location" Type="nvarchar" MaxLength="255" />
+          <Property Name="Year" Type="float" />
+          <Property Name="Month" Type="nvarchar" MaxLength="255" />
+          <Property Name="Day" Type="float" />
+          <Property Name="Temp_high" Type="float" />
+          <Property Name="Temp_avg" Type="float" />
+          <Property Name="Temp_low" Type="float" />
+          <Property Name="Dew#Point_high" Type="float" />
+          <Property Name="Dew#Point_avg" Type="float" />
+          <Property Name="Dew#Point_low" Type="float" />
+          <Property Name="Humidity_high" Type="float" />
+          <Property Name="Humidity_avg" Type="float" />
+          <Property Name="Humidity_low" Type="float" />
+          <Property Name="Sea_Level_Press_high" Type="float" />
+          <Property Name="Sea_Level_Press_avg" Type="float" />
+          <Property Name="Sea_Level_Press_low" Type="float" />
+          <Property Name="Visibility_high" Type="float" />
+          <Property Name="Visibility_avg" Type="float" />
+          <Property Name="Visibility_low" Type="float" />
+          <Property Name="Wind_high" Type="float" />
+          <Property Name="Wind_avg" Type="float" />
+          <Property Name="Wind_low" Type="float" />
+          <Property Name="sum" Type="float" />
+          <Property Name="Events" Type="nvarchar" MaxLength="255" />
+          <Property Name="CityID" Type="float" />
+        </EntityType>-->
+        <EntityType Name="Places">
+          <Key>
+            <PropertyRef Name="City_ID" />
+          </Key>
+          <Property Name="City_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="City_Name" Type="nvarchar(max)" />
+          <Property Name="Description_Eng" Type="nvarchar(max)" />
+          <Property Name="Description_Arabic" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="PlacesImages">
+          <Key>
+            <PropertyRef Name="PlaceID" />
+          </Key>
+          <Property Name="PlaceID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ImageURL" Type="nvarchar(max)" />
+          <Property Name="CityID" Type="int" />
+          <Property Name="PlaceName" Type="nvarchar(max)" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'WeatherPrediction.dbo.portSaid$' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="portSaid$">
+          <Property Name="Location" Type="nvarchar" MaxLength="255" />
+          <Property Name="Year" Type="float" />
+          <Property Name="Month" Type="nvarchar" MaxLength="255" />
+          <Property Name="Day" Type="float" />
+          <Property Name="Temp_high" Type="float" />
+          <Property Name="Temp_avg" Type="float" />
+          <Property Name="Temp_low" Type="float" />
+          <Property Name="Dew#Point_high" Type="float" />
+          <Property Name="Dew#Point_avg" Type="float" />
+          <Property Name="Dew#Point_low" Type="float" />
+          <Property Name="Humidity_high" Type="float" />
+          <Property Name="Humidity_avg" Type="float" />
+          <Property Name="Humidity_low" Type="float" />
+          <Property Name="Sea_Level_Press_high" Type="float" />
+          <Property Name="Sea_Level_Press_avg" Type="float" />
+          <Property Name="Sea_Level_Press_low" Type="float" />
+          <Property Name="Visibility_high" Type="float" />
+          <Property Name="Visibility_avg" Type="float" />
+          <Property Name="Visibility_low" Type="float" />
+          <Property Name="Wind_high" Type="float" />
+          <Property Name="Wind_avg" Type="float" />
+          <Property Name="Wind_low" Type="float" />
+          <Property Name="sum" Type="float" />
+          <Property Name="Events" Type="nvarchar" MaxLength="255" />
+          <Property Name="CityID" Type="float" />
+        </EntityType>-->
+        <EntityType Name="WeatherData2">
+          <Key>
+            <PropertyRef Name="WeatherData_ID" />
+          </Key>
+          <Property Name="WeatherData_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Location" Type="nvarchar" MaxLength="255" />
+          <Property Name="Year" Type="float" />
+          <Property Name="Month" Type="nvarchar" MaxLength="255" />
+          <Property Name="Day" Type="float" />
+          <Property Name="Temp_high" Type="float" />
+          <Property Name="Temp_avg" Type="float" />
+          <Property Name="Temp_low" Type="float" />
+          <Property Name="Dew Point_high" Type="float" />
+          <Property Name="Dew Point_avg" Type="float" />
+          <Property Name="Dew Point_low" Type="float" />
+          <Property Name="Humidity_high" Type="float" />
+          <Property Name="Humidity_avg" Type="float" />
+          <Property Name="Humidity_low" Type="float" />
+          <Property Name="Sea_Level_Press_high" Type="float" />
+          <Property Name="Sea_Level_Press_avg" Type="float" />
+          <Property Name="Sea_Level_Press_low" Type="float" />
+          <Property Name="Visibility_high" Type="float" />
+          <Property Name="Visibility_avg" Type="float" />
+          <Property Name="Visibility_low" Type="float" />
+          <Property Name="Wind_high" Type="float" />
+          <Property Name="Wind_avg" Type="float" />
+          <Property Name="Wind_low" Type="float" />
+          <Property Name="sum" Type="float" />
+          <Property Name="Events" Type="nvarchar" MaxLength="255" />
+          <Property Name="City_ID" Type="int" />
+          <Property Name="Crop_ID" Type="int" />
+          <Property Name="Clothes_ID" Type="int" />
+        </EntityType>
+        <Association Name="FK_ClothesImages_Clothes">
+          <End Role="Clothes" Type="Self.Clothes" Multiplicity="0..1" />
+          <End Role="ClothesImages" Type="Self.ClothesImages" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clothes">
+              <PropertyRef Name="SeasonID" />
+            </Principal>
+            <Dependent Role="ClothesImages">
+              <PropertyRef Name="SeasonID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PlacesImages_Places">
+          <End Role="Places" Type="Self.Places" Multiplicity="0..1" />
+          <End Role="PlacesImages" Type="Self.PlacesImages" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Places">
+              <PropertyRef Name="City_ID" />
+            </Principal>
+            <Dependent Role="PlacesImages">
+              <PropertyRef Name="CityID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WeatherData2_Cities">
+          <End Role="Cities" Type="Self.Cities" Multiplicity="0..1" />
+          <End Role="WeatherData2" Type="Self.WeatherData2" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cities">
+              <PropertyRef Name="City_ID" />
+            </Principal>
+            <Dependent Role="WeatherData2">
+              <PropertyRef Name="City_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WeatherData2_Clothes">
+          <End Role="Clothes" Type="Self.Clothes" Multiplicity="0..1" />
+          <End Role="WeatherData2" Type="Self.WeatherData2" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clothes">
+              <PropertyRef Name="SeasonID" />
+            </Principal>
+            <Dependent Role="WeatherData2">
+              <PropertyRef Name="Clothes_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WeatherData2_Crops">
+          <End Role="Crops" Type="Self.Crops" Multiplicity="0..1" />
+          <End Role="WeatherData2" Type="Self.WeatherData2" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Crops">
+              <PropertyRef Name="Crop_ID" />
+            </Principal>
+            <Dependent Role="WeatherData2">
+              <PropertyRef Name="Crop_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WeatherData2_Places">
+          <End Role="Places" Type="Self.Places" Multiplicity="0..1" />
+          <End Role="WeatherData2" Type="Self.WeatherData2" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Places">
+              <PropertyRef Name="City_ID" />
+            </Principal>
+            <Dependent Role="WeatherData2">
+              <PropertyRef Name="Crop_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="WeatherPredictionModelStoreContainer">
+          <EntitySet Name="Cities" EntityType="Self.Cities" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Clothes" EntityType="Self.Clothes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ClothesImages" EntityType="Self.ClothesImages" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Crops" EntityType="Self.Crops" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Places" EntityType="Self.Places" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PlacesImages" EntityType="Self.PlacesImages" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="WeatherData2" EntityType="Self.WeatherData2" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_ClothesImages_Clothes" Association="Self.FK_ClothesImages_Clothes">
+            <End Role="Clothes" EntitySet="Clothes" />
+            <End Role="ClothesImages" EntitySet="ClothesImages" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PlacesImages_Places" Association="Self.FK_PlacesImages_Places">
+            <End Role="Places" EntitySet="Places" />
+            <End Role="PlacesImages" EntitySet="PlacesImages" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WeatherData2_Cities" Association="Self.FK_WeatherData2_Cities">
+            <End Role="Cities" EntitySet="Cities" />
+            <End Role="WeatherData2" EntitySet="WeatherData2" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WeatherData2_Clothes" Association="Self.FK_WeatherData2_Clothes">
+            <End Role="Clothes" EntitySet="Clothes" />
+            <End Role="WeatherData2" EntitySet="WeatherData2" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WeatherData2_Crops" Association="Self.FK_WeatherData2_Crops">
+            <End Role="Crops" EntitySet="Crops" />
+            <End Role="WeatherData2" EntitySet="WeatherData2" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WeatherData2_Places" Association="Self.FK_WeatherData2_Places">
+            <End Role="Places" EntitySet="Places" />
+            <End Role="WeatherData2" EntitySet="WeatherData2" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="WeatherPredictionModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Cities">
+          <Key>
+            <PropertyRef Name="City_ID" />
+          </Key>
+          <Property Name="City_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="City_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="WeatherData2" Relationship="Self.FK_WeatherData2_Cities" FromRole="Cities" ToRole="WeatherData2" />
+        </EntityType>
+        <EntityType Name="Clothes">
+          <Key>
+            <PropertyRef Name="SeasonID" />
+          </Key>
+          <Property Name="SeasonID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SeasonName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="MinTemp" Type="Int32" />
+          <Property Name="MaxTemp" Type="Int32" />
+          <NavigationProperty Name="ClothesImages" Relationship="Self.FK_ClothesImages_Clothes" FromRole="Clothes" ToRole="ClothesImages" />
+          <NavigationProperty Name="WeatherData2" Relationship="Self.FK_WeatherData2_Clothes" FromRole="Clothes" ToRole="WeatherData2" />
+        </EntityType>
+        <EntityType Name="ClothesImages">
+          <Key>
+            <PropertyRef Name="ClothesID" />
+          </Key>
+          <Property Name="ClothesID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ImageURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SeasonID" Type="Int32" />
+          <NavigationProperty Name="Clothes" Relationship="Self.FK_ClothesImages_Clothes" FromRole="ClothesImages" ToRole="Clothes" />
+        </EntityType>
+        <EntityType Name="Crops">
+          <Key>
+            <PropertyRef Name="Crop_ID" />
+          </Key>
+          <Property Name="Crop_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Crop_Name_Eng" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Crop_Name_Arabic" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="MinTemp" Type="Int32" />
+          <Property Name="MaxTemp" Type="Int32" />
+          <Property Name="ImageURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="WeatherData2" Relationship="Self.FK_WeatherData2_Crops" FromRole="Crops" ToRole="WeatherData2" />
+        </EntityType>
+        <EntityType Name="Places">
+          <Key>
+            <PropertyRef Name="City_ID" />
+          </Key>
+          <Property Name="City_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="City_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Description_Eng" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Description_Arabic" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="PlacesImages" Relationship="Self.FK_PlacesImages_Places" FromRole="Places" ToRole="PlacesImages" />
+          <NavigationProperty Name="WeatherData2" Relationship="Self.FK_WeatherData2_Places" FromRole="Places" ToRole="WeatherData2" />
+        </EntityType>
+        <EntityType Name="PlacesImages">
+          <Key>
+            <PropertyRef Name="PlaceID" />
+          </Key>
+          <Property Name="PlaceID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ImageURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CityID" Type="Int32" />
+          <Property Name="PlaceName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Places" Relationship="Self.FK_PlacesImages_Places" FromRole="PlacesImages" ToRole="Places" />
+        </EntityType>
+        <EntityType Name="WeatherData2">
+          <Key>
+            <PropertyRef Name="WeatherData_ID" />
+          </Key>
+          <Property Name="WeatherData_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Location" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Year" Type="Double" />
+          <Property Name="Month" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Day" Type="Double" />
+          <Property Name="Temp_high" Type="Double" />
+          <Property Name="Temp_avg" Type="Double" />
+          <Property Name="Temp_low" Type="Double" />
+          <Property Name="Dew_Point_high" Type="Double" />
+          <Property Name="Dew_Point_avg" Type="Double" />
+          <Property Name="Dew_Point_low" Type="Double" />
+          <Property Name="Humidity_high" Type="Double" />
+          <Property Name="Humidity_avg" Type="Double" />
+          <Property Name="Humidity_low" Type="Double" />
+          <Property Name="Sea_Level_Press_high" Type="Double" />
+          <Property Name="Sea_Level_Press_avg" Type="Double" />
+          <Property Name="Sea_Level_Press_low" Type="Double" />
+          <Property Name="Visibility_high" Type="Double" />
+          <Property Name="Visibility_avg" Type="Double" />
+          <Property Name="Visibility_low" Type="Double" />
+          <Property Name="Wind_high" Type="Double" />
+          <Property Name="Wind_avg" Type="Double" />
+          <Property Name="Wind_low" Type="Double" />
+          <Property Name="sum" Type="Double" />
+          <Property Name="Events" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="City_ID" Type="Int32" />
+          <Property Name="Crop_ID" Type="Int32" />
+          <Property Name="Clothes_ID" Type="Int32" />
+          <NavigationProperty Name="Cities" Relationship="Self.FK_WeatherData2_Cities" FromRole="WeatherData2" ToRole="Cities" />
+          <NavigationProperty Name="Clothes" Relationship="Self.FK_WeatherData2_Clothes" FromRole="WeatherData2" ToRole="Clothes" />
+          <NavigationProperty Name="Crops" Relationship="Self.FK_WeatherData2_Crops" FromRole="WeatherData2" ToRole="Crops" />
+          <NavigationProperty Name="Places" Relationship="Self.FK_WeatherData2_Places" FromRole="WeatherData2" ToRole="Places" />
+        </EntityType>
+        <Association Name="FK_WeatherData2_Cities">
+          <End Role="Cities" Type="Self.Cities" Multiplicity="0..1" />
+          <End Role="WeatherData2" Type="Self.WeatherData2" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cities">
+              <PropertyRef Name="City_ID" />
+            </Principal>
+            <Dependent Role="WeatherData2">
+              <PropertyRef Name="City_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ClothesImages_Clothes">
+          <End Role="Clothes" Type="Self.Clothes" Multiplicity="0..1" />
+          <End Role="ClothesImages" Type="Self.ClothesImages" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clothes">
+              <PropertyRef Name="SeasonID" />
+            </Principal>
+            <Dependent Role="ClothesImages">
+              <PropertyRef Name="SeasonID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WeatherData2_Clothes">
+          <End Role="Clothes" Type="Self.Clothes" Multiplicity="0..1" />
+          <End Role="WeatherData2" Type="Self.WeatherData2" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clothes">
+              <PropertyRef Name="SeasonID" />
+            </Principal>
+            <Dependent Role="WeatherData2">
+              <PropertyRef Name="Clothes_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WeatherData2_Crops">
+          <End Role="Crops" Type="Self.Crops" Multiplicity="0..1" />
+          <End Role="WeatherData2" Type="Self.WeatherData2" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Crops">
+              <PropertyRef Name="Crop_ID" />
+            </Principal>
+            <Dependent Role="WeatherData2">
+              <PropertyRef Name="Crop_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PlacesImages_Places">
+          <End Role="Places" Type="Self.Places" Multiplicity="0..1" />
+          <End Role="PlacesImages" Type="Self.PlacesImages" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Places">
+              <PropertyRef Name="City_ID" />
+            </Principal>
+            <Dependent Role="PlacesImages">
+              <PropertyRef Name="CityID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WeatherData2_Places">
+          <End Role="Places" Type="Self.Places" Multiplicity="0..1" />
+          <End Role="WeatherData2" Type="Self.WeatherData2" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Places">
+              <PropertyRef Name="City_ID" />
+            </Principal>
+            <Dependent Role="WeatherData2">
+              <PropertyRef Name="Crop_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="WeatherPredictionEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Cities" EntityType="Self.Cities" />
+          <EntitySet Name="Clothes" EntityType="Self.Clothes" />
+          <EntitySet Name="ClothesImages" EntityType="Self.ClothesImages" />
+          <EntitySet Name="Crops" EntityType="Self.Crops" />
+          <EntitySet Name="Places" EntityType="Self.Places" />
+          <EntitySet Name="PlacesImages" EntityType="Self.PlacesImages" />
+          <EntitySet Name="WeatherData2" EntityType="Self.WeatherData2" />
+          <AssociationSet Name="FK_WeatherData2_Cities" Association="Self.FK_WeatherData2_Cities">
+            <End Role="Cities" EntitySet="Cities" />
+            <End Role="WeatherData2" EntitySet="WeatherData2" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ClothesImages_Clothes" Association="Self.FK_ClothesImages_Clothes">
+            <End Role="Clothes" EntitySet="Clothes" />
+            <End Role="ClothesImages" EntitySet="ClothesImages" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WeatherData2_Clothes" Association="Self.FK_WeatherData2_Clothes">
+            <End Role="Clothes" EntitySet="Clothes" />
+            <End Role="WeatherData2" EntitySet="WeatherData2" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WeatherData2_Crops" Association="Self.FK_WeatherData2_Crops">
+            <End Role="Crops" EntitySet="Crops" />
+            <End Role="WeatherData2" EntitySet="WeatherData2" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PlacesImages_Places" Association="Self.FK_PlacesImages_Places">
+            <End Role="Places" EntitySet="Places" />
+            <End Role="PlacesImages" EntitySet="PlacesImages" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WeatherData2_Places" Association="Self.FK_WeatherData2_Places">
+            <End Role="Places" EntitySet="Places" />
+            <End Role="WeatherData2" EntitySet="WeatherData2" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="WeatherPredictionModelStoreContainer" CdmEntityContainer="WeatherPredictionEntities">
+          <EntitySetMapping Name="Cities">
+            <EntityTypeMapping TypeName="WeatherPredictionModel.Cities">
+              <MappingFragment StoreEntitySet="Cities">
+                <ScalarProperty Name="City_ID" ColumnName="City_ID" />
+                <ScalarProperty Name="City_Name" ColumnName="City_Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Clothes">
+            <EntityTypeMapping TypeName="WeatherPredictionModel.Clothes">
+              <MappingFragment StoreEntitySet="Clothes">
+                <ScalarProperty Name="SeasonID" ColumnName="SeasonID" />
+                <ScalarProperty Name="SeasonName" ColumnName="SeasonName" />
+                <ScalarProperty Name="MinTemp" ColumnName="MinTemp" />
+                <ScalarProperty Name="MaxTemp" ColumnName="MaxTemp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ClothesImages">
+            <EntityTypeMapping TypeName="WeatherPredictionModel.ClothesImages">
+              <MappingFragment StoreEntitySet="ClothesImages">
+                <ScalarProperty Name="ClothesID" ColumnName="ClothesID" />
+                <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+                <ScalarProperty Name="SeasonID" ColumnName="SeasonID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Crops">
+            <EntityTypeMapping TypeName="WeatherPredictionModel.Crops">
+              <MappingFragment StoreEntitySet="Crops">
+                <ScalarProperty Name="Crop_ID" ColumnName="Crop_ID" />
+                <ScalarProperty Name="Crop_Name_Eng" ColumnName="Crop_Name_Eng" />
+                <ScalarProperty Name="Crop_Name_Arabic" ColumnName="Crop_Name_Arabic" />
+                <ScalarProperty Name="MinTemp" ColumnName="MinTemp" />
+                <ScalarProperty Name="MaxTemp" ColumnName="MaxTemp" />
+                <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Places">
+            <EntityTypeMapping TypeName="WeatherPredictionModel.Places">
+              <MappingFragment StoreEntitySet="Places">
+                <ScalarProperty Name="City_ID" ColumnName="City_ID" />
+                <ScalarProperty Name="City_Name" ColumnName="City_Name" />
+                <ScalarProperty Name="Description_Eng" ColumnName="Description_Eng" />
+                <ScalarProperty Name="Description_Arabic" ColumnName="Description_Arabic" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PlacesImages">
+            <EntityTypeMapping TypeName="WeatherPredictionModel.PlacesImages">
+              <MappingFragment StoreEntitySet="PlacesImages">
+                <ScalarProperty Name="PlaceID" ColumnName="PlaceID" />
+                <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+                <ScalarProperty Name="CityID" ColumnName="CityID" />
+                <ScalarProperty Name="PlaceName" ColumnName="PlaceName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WeatherData2">
+            <EntityTypeMapping TypeName="WeatherPredictionModel.WeatherData2">
+              <MappingFragment StoreEntitySet="WeatherData2">
+                <ScalarProperty Name="WeatherData_ID" ColumnName="WeatherData_ID" />
+                <ScalarProperty Name="Location" ColumnName="Location" />
+                <ScalarProperty Name="Year" ColumnName="Year" />
+                <ScalarProperty Name="Month" ColumnName="Month" />
+                <ScalarProperty Name="Day" ColumnName="Day" />
+                <ScalarProperty Name="Temp_high" ColumnName="Temp_high" />
+                <ScalarProperty Name="Temp_avg" ColumnName="Temp_avg" />
+                <ScalarProperty Name="Temp_low" ColumnName="Temp_low" />
+                <ScalarProperty Name="Dew_Point_high" ColumnName="Dew Point_high" />
+                <ScalarProperty Name="Dew_Point_avg" ColumnName="Dew Point_avg" />
+                <ScalarProperty Name="Dew_Point_low" ColumnName="Dew Point_low" />
+                <ScalarProperty Name="Humidity_high" ColumnName="Humidity_high" />
+                <ScalarProperty Name="Humidity_avg" ColumnName="Humidity_avg" />
+                <ScalarProperty Name="Humidity_low" ColumnName="Humidity_low" />
+                <ScalarProperty Name="Sea_Level_Press_high" ColumnName="Sea_Level_Press_high" />
+                <ScalarProperty Name="Sea_Level_Press_avg" ColumnName="Sea_Level_Press_avg" />
+                <ScalarProperty Name="Sea_Level_Press_low" ColumnName="Sea_Level_Press_low" />
+                <ScalarProperty Name="Visibility_high" ColumnName="Visibility_high" />
+                <ScalarProperty Name="Visibility_avg" ColumnName="Visibility_avg" />
+                <ScalarProperty Name="Visibility_low" ColumnName="Visibility_low" />
+                <ScalarProperty Name="Wind_high" ColumnName="Wind_high" />
+                <ScalarProperty Name="Wind_avg" ColumnName="Wind_avg" />
+                <ScalarProperty Name="Wind_low" ColumnName="Wind_low" />
+                <ScalarProperty Name="sum" ColumnName="sum" />
+                <ScalarProperty Name="Events" ColumnName="Events" />
+                <ScalarProperty Name="City_ID" ColumnName="City_ID" />
+                <ScalarProperty Name="Crop_ID" ColumnName="Crop_ID" />
+                <ScalarProperty Name="Clothes_ID" ColumnName="Clothes_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
